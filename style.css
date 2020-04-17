@@ -1,0 +1,56 @@
+.coffee-machine {
+  border: 2px solid black;
+}
+
+.coffee-list {
+  
+  background-image: url(Img/background.jpg);
+  background-size: cover;
+}
+
+.coffee-item {
+  background: rgba(0, 0, 0, 0.7);
+  margin: 5% 0;
+  border-radius: calc(100px / 2);
+  cursor: pointer;
+}
+
+.coffee-item:hover {
+ background: rgba(50, 50, 50, 0.7); 
+}
+
+.coffee-item img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.coffee-item span {
+ margin-left: 5%;
+ color: white;
+ font-weight: bold;
+}
+
+.coffee-oper {
+  background: lightgrey;
+}
+
+.display {
+  background: lightgreen;
+  border: 2px solid green;
+  padding: 5%;
+}
+
+.coffee-cup img {
+  width: 100%;
+}
+
+.atm img {
+  width: 100%;
+}
+
+.change-box {
+  border: 2px solid black;
+  background: darkgrey;
+  width: 100%;
+  height: 200px;
+}
